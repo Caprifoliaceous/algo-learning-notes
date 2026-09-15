@@ -3,8 +3,8 @@
 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
 https://leetcode.cn/problems/two-sum
 */
-class twoSum {
-    public int[] twoSum(int[] nums, int target) {
+class TwoSum {
+    public int[] solution(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] + nums[j] == target) {
