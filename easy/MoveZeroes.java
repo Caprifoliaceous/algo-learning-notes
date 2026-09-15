@@ -4,7 +4,7 @@ https://leetcode.cn/problems/move-zeroes
 请注意 ，必须在不复制数组的情况下原地对数组进行操作。
 */
 class MoveZeroes {
-    public void moveZeroes(int[] nums) {
+    public void solution(int[] nums) {
         int[] result = new int[nums.length];
         int i = 0;
         int j = nums.length - 1;
