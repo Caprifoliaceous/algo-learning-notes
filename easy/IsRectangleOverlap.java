@@ -6,7 +6,7 @@ https://leetcode.cn/problems/rectangle-overlap
 给出两个矩形 rec1 和 rec2 。如果它们重叠，返回 true；否则，返回 false 。
 */
 class IsRectangleOverlap {
-    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+    public boolean solution(int[] rec1, int[] rec2) {
         return isIntervalOverlap(rec1[0], rec1[2], rec2[0], rec2[2])
                 && isIntervalOverlap(rec1[1], rec1[3], rec2[1], rec2[3]);
     }
